@@ -1,0 +1,320 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+body {
+  margin: 0;
+  background: rgb(245, 245, 245);
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 0.875rem;
+  color: rgb(86, 90, 92);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(255, 89, 95);
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 600;
+}
+
+
+/*
+ * Button styles
+*/
+
+.button {
+  background: rgb(255, 89, 95);
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 5rem;
+  border-bottom: 1px solid rgb(227, 25, 29);
+  border-radius: 2px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+
+/*
+ * Heading styles
+*/
+
+h1 {
+  font-size: 1.375rem;
+  color: #666A6C;
+  margin-bottom: 0.313rem;
+}
+
+
+
+/*
+ * Header and .hero styles
+*/
+
+header {
+  background: #FFF;;
+}
+
+header .logo {
+  border-right: 0.063rem solid #DCE0E0;
+}
+
+.hero img {
+  width: 100%;
+}
+
+
+/*
+ * Info styles
+*/
+
+.info {
+  background: white;
+  text-align: center;
+  padding: 1.563rem;
+}
+
+.info .profile {
+  margin-bottom: 1.714rem;
+ }
+
+.info .owner-details img {
+  border-radius: 50%;
+  margin-bottom: 0.429rem;
+}
+
+.info h2.relationship, .info h2.name {
+  color: #909597;
+  margin-bottom: 0.214rem;
+}
+
+.info h2.name {
+  font-weight: bolder;
+}
+
+.info .icon {
+  float: left;
+  width: 33.3%;
+}
+
+.info .icon img {
+  height: 2.143rem;
+  margin-bottom: 0.214rem;
+}
+
+.info .booking h2 {
+  font-weight: 600;
+  font-size: 1.571rem;
+  margin-bottom: 0.929rem;
+}
+
+.location {
+  margin-bottom: 1.429rem;
+}
+
+.info h2.price time {
+  font-size: 1.143rem;
+}
+
+
+/*
+ * about-info styles
+*/
+
+.about-info .about{
+  background: #F5F5F5;
+  color: #666A6C;
+  padding: 0.714rem;
+  border-top: 0.071rem solid #DCE0E0;
+}
+
+.about-info .about h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.about-info .about h3, .about-info .about p {
+  padding: 0.357rem;
+}
+
+.about-info .about .owner-contact {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+.about-info .care {
+  border-top: 0.071rem solid #DCE0E0;
+}
+
+.about-info .care h4 {
+  padding: 0.714rem;
+}
+
+.about-info .care p {
+  padding: 0 0.714rem 0 0.714rem;
+}
+
+.about-info .games {
+  border-top: 0.071rem solid #DCE0E0;
+}
+
+.about-info .games h4{
+  padding: 0.714rem;
+}
+
+.about-info .games p{
+  padding: 0 0.714rem 0 0.714rem;
+}
+
+.about-info .photos {
+  border-top: 0.071rem solid #DCE0E0;
+}
+
+.about-info .photos img {
+  width: 100%;
+  padding: 0.714rem;
+}
+
+
+
+@media only screen and (min-width: 1060px) {
+
+  .container {
+    width: 1040px;
+    margin: 0 auto;
+  }
+
+  .column {
+    float: left;
+  }
+
+  .button {
+    width: 275px;
+    margin: auto;
+  }
+  
+  .info h1 {
+    margin-bottom: 0.786rem;
+  }
+
+  .info h2 {
+    margin-bottom: 0.214rem;
+  }
+
+  .info .profile {
+    width: 660px;
+    border-right: 0.071rem solid #DCE0E0;
+  }
+
+  .info .booking {
+    width: 380px;
+  }
+
+  .info .owner-details {
+    width: 20%;
+  }
+
+  .info .pet-details {
+    width: 80%;
+    text-align: left;
+  }
+
+  .info .pet-details .icon {
+    width: inherit;
+    margin-right: 3.571rem;
+  }
+
+  .info .pet-details .icon img {
+    display: block;
+    margin: 0.214rem auto 0.214rem;
+  }
+
+  .about-info .about h3{
+    margin-bottom: 0;
+    margin-top: 2.143rem;
+  }
+
+  .about-info .about p {
+    width: 665px;
+    margin-left: 22.143rem;
+    margin-top: 1.429rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: 1.571rem;
+    color: #565A5C;
+    text-align: center;
+  }
+
+  .about-info .about .owner-contact {
+    margin-top: 0.714rem;
+    text-align: left;
+  }
+
+  .about-info .care h4 {
+    margin: 1.429rem auto;
+    float: left;
+    width: 170px;
+    margin-left: 22.143rem;
+  }
+
+  .about-info .care .care1 {
+    margin: 1.429rem auto;
+    width: 260px;
+    float: left;
+    line-height: 1.571rem;
+  }
+
+  .about-info .care .care2 {
+    margin: 1.429rem auto;
+    width: 225px;
+    float: left;
+    line-height: 1.571rem;
+  }
+
+  .about-info .games h4{
+    margin: 1.429rem auto;
+    float: left;
+    width: 170px;
+    margin-left: 22.143rem;
+  }
+
+  .about-info .games p{
+    margin: 1.429rem auto;
+    float: left;
+    line-height: 1.571rem;
+  }
+
+  .about-info .photos img {
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin-top: 2rem;
+    margin-bottom: 5.714rem;
+    padding: 0;
+  }
+
+  .about-info .photos .dog1, .about-info .photos .dog2 {
+    margin-right: 27px;
+  }
+
+  .about-info .photos .dog1 {
+    margin-left: 310px
+  }
+
+}
